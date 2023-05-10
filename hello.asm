@@ -1,3 +1,9 @@
+;Canal Os Vilões
+;Leonardo Oliveira
+;Versão de 32-bit
+;nasm -f win32 -o hello2.o hello2.asm
+;ld -L [MUDAR_PARA_DIRETORIO_COM_O_KERNEL32.DLL_32BITS] -l kernel32 -m i386pe -o hello2.exe hello2.o
+
 NULL EQU 0
 STD_OUT_HANDLE EQU -11
 
