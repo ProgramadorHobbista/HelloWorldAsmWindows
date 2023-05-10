@@ -28,10 +28,7 @@ inicio:
     mov rdx,mensagem
     mov r8,tamanho_mensagem
     mov r9,0
-    ;mov r9,[rsp-16]
-    ;mov qword[rsp-56], 0
     call WriteFile
-    ;add rsp,48
 
     mov rax,NULL
     call ExitProcess
